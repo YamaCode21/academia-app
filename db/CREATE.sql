@@ -10,7 +10,7 @@ create table usuarios(
     email varchar(100) unique,
     password varchar(255),
     rol enum('alumno', 'docente', 'admin'),
-    fecha_cvreacion timestamp default current_timestamp
+    fecha_creacion timestamp default current_timestamp
 );
 
 create table cursos(
